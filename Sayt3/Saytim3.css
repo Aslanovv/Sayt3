@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*{
+	margin:0; padding: 0;
+}
+
+
+.Main1 {
+	width: 100%;
+	height: 72px;
+	background-color: #2f3a50;
+	position: fixed;
+	display: flex;
+	z-index: 1;
+	
+}
+
+.Main1 h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 24px;
+
+	font-family: "Montserrat",sans-serif;
+
+	padding: 21.5px 0px 0px 111px;
+
+}
+
+.Main1 ul {
+	display: flex;
+	padding: 26px 0px 0px 713px;
+	list-style: none;
+
+}
+
+.Main1 a {
+
+	text-decoration-line: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px; 
+	font-weight: 700;
+
+	font-family: "Montserrat",sans-serif;
+
+	margin-right: 40px;
+
+	transition: 0.4s all;
+
+}
+
+.Main1 a:hover {
+
+	color: #00c2a4;
+}
+
+/*********************************************************************************************************************************************************************************/
+
+.Main2 {
+	width: 100%;
+	height: 100vh;
+	background-color: #00c2a4;
+}
+
+
+.Main2 img {
+	width: 240px;
+	padding: 200px 0px 0px 640px;
+}
+
+.Yazi1 {
+	width: 900px;
+	height: 85px;
+	margin: auto;
+
+	color: white;
+	text-transform: uppercase;
+	font-size: 64px;
+	font-weight: 700;
+
+	font-family: "Montserrat",sans-serif;
+
+	padding: 33px 0px 0px 251px;
+}
+
+.Simvol1 {
+	width: 530px;
+	height: 80px;
+	
+	margin: auto;
+	padding-left: 240px;
+
+}
+ .S11 {
+ 	width: 110px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: white;
+	float: left;
+	margin-top: 25px;
+ }
+
+ .S12{
+ 	float: left;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+ 	margin-top: 10px;
+ }
+
+ .S12 svg {
+ 	height: 33px;
+ 	color: white;
+ }
+ .S13 {
+ 	width: 110px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: white;
+	float: left;
+	margin-top: 25px;
+ }
+
+ .Yazi11 {
+	margin-left: 530px;
+
+}
+
+.Yazi11 h1 {
+	font-size: 25px;
+	color: white;
+	font-family: "Lato",sans-serif;
+	font-weight: 200;
+	margin: auto;
+}
+
+
+
+
+
+/*********************************************************************************************************************************************************************************/
+
+.Main3 {
+	width: 100%;
+	height: 113vh;
+	background-color: #fff;
+}
+
+.Yazi2 {
+	width: 400px;
+	height: 65px;
+	margin: auto;
+	margin-top: 85px;
+	color: #2f3a50;
+	font-size: 48px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.Simvol2 {
+	width: 530px;
+	height: 70px;
+	
+	margin: auto;
+	padding-left: 240px;
+
+}
+ .S21 {
+ 	width: 110px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #2f3a50;
+	float: left;
+	margin-top: 25px;
+ }
+
+ .S22{
+ 	float: left;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+ 	margin-top: 10px;
+ }
+
+ .S22 svg {
+ 	height: 33px;
+ 	color: #2f3a50;
+ }
+ .S23 {
+ 	width: 110px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #2f3a50;
+	float: left;
+	margin-top: 25px;
+ }
+
+ .Sekil {
+	width: 400px;
+	height: 288px;
+	margin-left: 120px;
+	margin-top: 10px;
+	background-color: blue;
+	float: left;
+	background-image: url(cabin.png);
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	
+}
+
+.Animasiya {
+
+	width: 400px;
+	height: 288px;
+	border-radius: 10px;
+	background-color: transparent;
+
+	transition: 0.2s all;
+}
+.Animasiya:hover{
+	background-color: #00c2a4;
+	opacity: 0.9; 
+}
+
+.Animasiya span {
+
+	font-size: 150px;
+	text-align: center;
+	display: block;
+	width: 400px;
+	padding-top: 56px;
+	display: none;
+}
+.Animasiya:hover span{
+	display: block;
+}
+
+
+.Sekil2 {
+	width: 400px;
+	height: 288px;
+	margin-top: 10px;
+	background-color: blue;
+	float: left;
+	background-image: url(cake.png);
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	
+}
+
+
+.Sekil3 {
+	width: 400px;
+	height: 288px;
+	margin-top: 10px;
+	background-color: blue;
+	float: left;
+	background-image: url(circus.png);
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	
+}
+
+
+
+.Sekil4 {
+	width: 400px;
+	height: 288px;
+	margin-left: 120px;
+	background-color: blue;
+	float: left;
+	background-image: url(game.png);
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	border-radius: 10px;
+}
+
+
+
+.Sekil5 {
+	width: 400px;
+	height: 288px;
+	background-color: blue;
+	float: left;
+	background-image: url(safe.png);
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	margin-left: 40px;
+	border-radius: 10px;
+}
+
+
+.Sekil6 {
+	width: 400px;
+	height: 288px;
+	background-color: blue;
+	float: left;
+	background-image: url(submarine.png);
+	background-position: center;
+	background-size: 100%;
+	color: white;
+	margin-left: 40px;
+	border-radius: 10px;
+}
+
+.Animasiya6 {
+	
+	width: 400px;
+	height: 288px;
+	border-radius: 10px;
+	background-color: transparent;
+
+	transition: 0.2s all;
+}
+
+
+
+
+/*********************************************************************************************************************************************************************************/
+
+.Main4 {
+	width: 100%;
+	height: 77vh;
+	background-color: #00c2a4;
+
+}
+
+.Yazi3 {
+	width: 400px;
+	height: 65px;
+	margin: auto;
+	padding-top: 80px;
+	color: white;
+	font-size: 48px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.Yazi4 {
+	width: 430px;
+	height: 200px;
+	margin-left: 320px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	float: left;
+	color: white;
+	font-size: 20px;
+	font-family: "Lato",sans-serif;
+	line-height: 1.6;
+}
+
+.Yazi5 {
+	width: 430px;
+	height: 200px;
+	margin-bottom: 5px;
+	float: left;
+	color: white;
+	font-size: 20px;
+	font-family: "Lato",sans-serif;
+	line-height: 1.6;
+}
+
+.Button1 {
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	padding-left: 65px;
+}
+
+.Button1 a {
+	font-size: 20px;
+	font-family: "Lato",sans-serif;
+	text-decoration-line: none;
+	color: white;
+	padding: 20px 28px 20px 30px;
+	border-radius: 10px;
+	border-color: white;
+	border: solid;
+	transition: 0.2s all;
+	
+}
+
+.Button1 a:hover { 
+	background-color: white;
+	color: black;
+	border-color: white;
+}
+
+/*********************************************************************************************************************************************************************************/
+
+.Main5 {
+ width: 100%;
+ height: 105vh;
+ background-color: #fff;
+}
+
+.Yazi6 {
+ width: 400px;
+ height: 65px;
+ margin: auto;
+ margin-top: 85px;
+ color: #2f3a50;
+ font-size: 48px;
+ font-family: "Montserrat";
+ font-weight: 700;
+ text-transform: uppercase;
+ text-align: center;
+
+}
+
+.input{
+ width: 50%;
+ margin: auto;
+}
+input{
+ width: 50%;
+ padding: 40px 40px 30px;
+ outline: 0;
+ border: 0;
+ margin: auto;
+ font-size: 23px;
+}
+.xet{
+ width: 90%;
+    height: 1px;
+    background-color: #ced4da;
+    margin: auto;
+}
+.textarea{
+ width: 45%;
+ margin: auto;
+}
+textarea{
+ font-size: 23px;
+ padding: 30px 0 50px;
+    width: 38rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ced4da;
+    outline: 0;
+
+}
+.send{
+ width: 45%;
+ margin: auto;
+ margin-top: 20px;
+}
+.send button{
+ border-radius: 9px;
+ background-color: #6bd4bf;
+ color: white;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+ font-size: 19px;
+ padding: 20px 28px;
+ border: 0;
+
+}
+textarea{
+	resize: vertical;
+}
+
+
+/*********************************************************************************************************************************************************************************/
+
+.Main6 {
+	width: 100%;
+	height: 36vh;
+	background-color: #2f3a50;
+}
+
+.Yazi7 ul {
+	display: flex;
+	padding: 77px 0px 0px 250px;
+	list-style: none;
+
+}
+
+.Yazi7 h1 {
+
+	text-decoration-line: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 25px; 
+	font-weight: 700;
+
+	font-family: "Montserrat",sans-serif;
+
+
+	transition: 0.4s all;
+
+}
+
+.A {
+	margin-right: 250px;
+}
+.B {
+	margin-right: 180px;
+}
+
+.A1 {
+
+	width:370px;
+	height: 120px;
+	
+	margin-left: 170px;
+	float: left;
+
+	font-family: "Lato",sans-serif;
+	color: white;
+	font-size: 20px;
+	line-height: 1.4;
+	padding: 30px 0px 0px 50px;
+}
+
+.B1 {
+
+	width: 400px;
+
+	margin-right: 20px;
+	margin-left: 24px;
+	float: left;
+}
+
+.C1 {
+
+	width: 400px;
+	height: 120px;
+	
+	float: left;
+
+	font-family: "Lato",sans-serif;
+	color: white;
+	font-size: 20px;
+	line-height: 1.4;
+	padding: 30px 0px 0px 0px;
+}
+
+.C1 a {
+	color: #3ab5c0;
+}
+
+.C1 a:hover {
+	color: #226b72;
+}
+
+.All{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.All div {
+	margin-top: 25px;
+	margin-left: 12px;
+	width: 54px;
+	height: 54px;
+	background-color: black;
+	border-radius: 54px;
+	border: solid;
+	border-color: white;
+	background-color: #2f3a50;
+	transition: 0.4s all;
+
+}
+
+.All div:hover { 
+	background-color: white;
+
+}
+.All div:hover svg{ 
+	color: black;
+
+}
+
+
+.All svg {
+	font-size: 30px;
+	color: white;
+	padding-left: 12px;
+	padding-top: 11px;
+}
+
+
+
+/*********************************************************************************************************************************************************************************/
+
+.Main7 {
+	width: 100%;
+	height: 10vh;
+	background-color: #071925;
+}
+
+
+
+
+
+
